@@ -11,6 +11,8 @@ App.SampleView = Backbone.View.extend
   render: ->
     $(@el).html(@template())
 
+    @
+
   function1: (e) ->
 
   function2: ->
